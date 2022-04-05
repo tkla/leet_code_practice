@@ -1,0 +1,1 @@
+A small repo of leetcode practice.
