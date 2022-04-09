@@ -36,7 +36,6 @@ var minSubArrayLen = function(target, nums) {
             currSum += nums[j++];
         }
         
-        // console.log(i, j, currSum);
         if (currSum < target) break;
         min = (min === 0)? j - i : Math.min(min, j - i);
         prevSum = nums[i];
